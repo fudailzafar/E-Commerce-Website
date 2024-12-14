@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
@@ -7,7 +7,7 @@ import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
-  // const { getTotalCartItems } = useContext(ShopContext);
+  const { getTotalCartItems } = useContext(ShopContext);
 
   return (
     <div className="navbar">
@@ -64,8 +64,7 @@ const Navbar = () => {
         <Link to="/cart">
           <img src={cart_icon} alt="" />
         </Link>
-        <div className="nav-cart-count">0</div>{" "}
-        {/*instead of 0, there should be {getTotalCartItems()}*/}
+        <div className="nav-cart-count">{getTotalCartItems()}</div>{" "}
       </div>
     </div>
   );
