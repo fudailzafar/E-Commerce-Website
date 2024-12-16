@@ -21,74 +21,84 @@ A fully functional and modern E-Commerce Website built with ReactJS. This projec
 ## 📂 Folder Structure
 
 ```plaintext
-└── E-Commerce-Website
-    ├── index.html
-    ├── eslint.config.js
-    ├── public
-    ├── package.json
-    ├── vite.config.js
-    ├── README.md
-    └── src
-        ├── App.jsx
-        ├── Components
-        │   ├── CartItems
-        │   │   ├── CartItems.css
-        │   │   └── CartItems.jsx
-        │   ├── Item
-        │   │   ├── Item.css
-        │   │   └── Item.jsx
-        │   ├── RelatedProducts
-        │   │   ├── RelatedProduct.jsx
-        │   │   └── RelatedProducts.css
-        │   ├── Offers
-        │   │   ├── Offers.jsx
-        │   │   └── Offers.css
-        │   ├── Popular
-        │   │   ├── Popular.css
-        │   │   └── Popular.jsx
-        │   ├── Navbar
-        │   │   ├── Navbar.css
-        │   │   └── Navbar.jsx
-        │   ├── NewsLetter
-        │   │   ├── NewsLetter.jsx
-        │   │   └── NewsLetter.css
-        │   ├── Breadcrums
-        │   │   ├── Breadcrum.css
-        │   │   └── Breadcrum.jsx
-        │   ├── DescriptionBox
-        │   │   ├── DescriptionBox.jsx
-        │   │   └── DescriptionBox.css
-        │   ├── Assets
-        │   │   ├── drop-drop-icon.webp
-        │   │   ├── all_product.js
-        │   │   ├── data.js
-        │   │   └── new_collections.js
-        │   ├── Hero
-        │   │   ├── Hero.css
-        │   │   └── Hero.jsx
-        │   ├── NewCollections
-        │   │   ├── NewCollections.css
-        │   │   └── NewCollections.jsx
-        │   ├── Footer
-        │   │   ├── Footer.jsx
-        │   │   └── Footer.css
-        │   └── ProductDisplay
-        │       ├── ProductDisplay.css
-        │       └── ProductDisplay.jsx
-        ├── index.css
-        ├── main.jsx
-        ├── Pages
-        │   ├── ShopCategory.jsx
-        │   ├── CSS
-        │   │   ├── LoginSignup.css
-        │   │   └── ShopCategory.css
-        │   ├── Shop.jsx
-        │   ├── LoginSignup.jsx
-        │   ├── Product.jsx
-        │   └── Cart.jsx
-        ├── App.css
-        └── Context
-            └── ShopContext.jsx
+Directory structure:
+└── fudailzafar-E-Commerce-Website
+    ├── backend
+    │   ├── package.json
+    │   ├── node_modules
+    │   ├── package-lock.json
+    │   └── index.js
+    ├── frontend
+    │   ├── index.html
+    │   ├── .gitignore
+    │   ├── eslint.config.js
+    │   ├── public
+    │   ├── package.json
+    │   ├── vite.config.js
+    │   ├── package-lock.json
+    │   ├── README.md
+    │   └── src
+    │       ├── App.jsx
+    │       ├── Components
+    │       │   ├── CartItems
+    │       │   │   ├── CartItems.css
+    │       │   │   └── CartItems.jsx
+    │       │   ├── Item
+    │       │   │   ├── Item.css
+    │       │   │   └── Item.jsx
+    │       │   ├── RelatedProducts
+    │       │   │   ├── RelatedProduct.jsx
+    │       │   │   └── RelatedProducts.css
+    │       │   ├── Offers
+    │       │   │   ├── Offers.jsx
+    │       │   │   └── Offers.css
+    │       │   ├── Popular
+    │       │   │   ├── Popular.css
+    │       │   │   └── Popular.jsx
+    │       │   ├── Navbar
+    │       │   │   ├── Navbar.css
+    │       │   │   └── Navbar.jsx
+    │       │   ├── NewsLetter
+    │       │   │   ├── NewsLetter.jsx
+    │       │   │   └── NewsLetter.css
+    │       │   ├── Breadcrums
+    │       │   │   ├── Breadcrum.css
+    │       │   │   └── Breadcrum.jsx
+    │       │   ├── DescriptionBox
+    │       │   │   ├── DescriptionBox.jsx
+    │       │   │   └── DescriptionBox.css
+    │       │   ├── Assets
+    │       │   │   ├── drop-drop-icon.webp
+    │       │   │   ├── all_product.js
+    │       │   │   ├── data.js
+    │       │   │   └── new_collections.js
+    │       │   ├── Hero
+    │       │   │   ├── Hero.css
+    │       │   │   └── Hero.jsx
+    │       │   ├── NewCollections
+    │       │   │   ├── NewCollections.css
+    │       │   │   └── NewCollections.jsx
+    │       │   ├── Footer
+    │       │   │   ├── Footer.jsx
+    │       │   │   └── Footer.css
+    │       │   └── ProductDisplay
+    │       │       ├── ProductDisplay.css
+    │       │       └── ProductDisplay.jsx
+    │       ├── index.css
+    │       ├── main.jsx
+    │       ├── Pages
+    │       │   ├── ShopCategory.jsx
+    │       │   ├── CSS
+    │       │   │   ├── LoginSignup.css
+    │       │   │   └── ShopCategory.css
+    │       │   ├── Shop.jsx
+    │       │   ├── LoginSignup.jsx
+    │       │   ├── Product.jsx
+    │       │   └── Cart.jsx
+    │       ├── App.css
+    │       └── Context
+    │           └── ShopContext.jsx
+    └── README.md
 ```
 
 ## 💻 Getting Started
